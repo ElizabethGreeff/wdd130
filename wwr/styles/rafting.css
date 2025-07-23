@@ -74,3 +74,11 @@ article {
     float: right;
     width: 125px;
 }
+.socialmedia img {
+    width: 50px;
+    height: auto;
+}
+section img {
+    width: 250px;
+    height: auto;
+}
