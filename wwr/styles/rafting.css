@@ -97,7 +97,7 @@ h1 {
 article {
     position: absolute;
     top: 290px;
-    width: 1fr;
+    width: 97%;
     height: 130px;
     padding: 16px;
     text-align: center;
@@ -114,7 +114,7 @@ article {
 .history div {
     display: flex;
 }
-.adventure span {
+.adventure div {
     display: flex;
     justify-content: space-around;
 }
