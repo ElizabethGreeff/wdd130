@@ -155,7 +155,6 @@ footer p {
 }
 .map {
     width: 50%;
-    align-self: right;
 }
 .employee {
     display:flex;
