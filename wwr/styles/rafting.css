@@ -84,7 +84,7 @@ nav, p, section, article {
     height: auto;
     opacity: 0.8;
 }
-h1 {    
+#title {    
     position: absolute;
     top: 50px;
     width: 100%;
@@ -134,4 +134,80 @@ footer {
 }
 footer p {
     grid-column: 2/3;
+}
+
+.maps h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+    justify-content: left;
+}
+.maps {
+    display: flex;
+    padding: 20px;
+}
+.contactUsInfo {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+.map {
+    width: 50%;
+    align-self: right;
+}
+.employee {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.employee img {
+    width: 450px;
+}
+.employeeInfo {
+    text-align: center;
+    width: 450px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 50px auto 0 auto;
+    border: none;
+}
+.form-item1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+fieldset {
+    width: 450px;
+    height: 250px;
+    justify-content: space-between;
+    border: none;
+}
+.form-item3 {
+    display: flex;
+    flex-direction: column;
+}
+button {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    margin: 20px;
+    width: 60px;
+    height: 20px;
+    border-radius: 30%;
+    background-color: var(--primary-color);
+    border: none;
+}
+button:hover {
+    background: var(--accent2-color);
+    color: #fff;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
 }
