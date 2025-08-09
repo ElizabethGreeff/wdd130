@@ -398,6 +398,12 @@ footer a:hover {
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
+    border: 2px solid var(--accent1-color);
+    border-radius: 8px;
+}
+.cta-button:hover {
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
 }
 
 .trips-grid {
